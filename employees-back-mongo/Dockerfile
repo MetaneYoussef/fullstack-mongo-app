@@ -1,5 +1,5 @@
 ### STAGE 1: Build ###
-FROM openjdk:11-slim-buster as build                         
+FROM openjdk:11.0.11-slim-buster as build                         
 RUN mkdir -p /app
 WORKDIR /app
  
